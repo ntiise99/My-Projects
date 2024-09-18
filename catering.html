@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Catering Company</title>
+  </head>
+  <style>
+    .itemButton {
+      white-space: normal;
+      float: left;
+      display: block;
+      width: auto;
+      outline: 0;
+      border: none;
+      overflow: hidden;
+      text-decoration: none;
+      background-color: inherit;
+      color: inherit;
+      text-align: center;
+      cursor: pointer;
+      line-height: 1.5;
+      font-size: 20px;
+    }
+    .itemButton:hover {
+      background-color: #757575;
+      color: black;
+    }
+    .welcomeSmall {
+      float: right !important;
+      box-shadow: inherit;
+      letter-spacing: 4px;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    a.itemButton {
+      font-family: "Cormorant Garamond", serif;
+      color: black;
+      background: #fff;
+      font: 15px;
+      padding: 8px 16px;
+    }
+    .who,
+    .what {
+      padding-top: 64px !important;
+      padding-bottom: 64px !important;
+    }
+    .middle {
+      text-align: center !important;
+    }
+    .whoInfo {
+      float: right;
+      padding: 12px 24px !important;
+      font-size: 15px;
+      line-height: 1;
+      width: 50%;
+    }
+    h1,
+    h4,
+    h5,
+    p {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 400;
+      letter-spacing: 5px;
+      margin: 10px 0;
+    }
+    p {
+      font-weight: 400;
+      font-family: "Times New Roman", Times, serif;
+    }
+    h5 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #757575;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .info {
+      font-size: 18px !important;
+    }
+    .textGrey {
+      color: #757575 !important;
+      display: block;
+      font-weight: 400;
+    }
+    .lastPic {
+      padding: 12px 24px !important;
+      float: right;
+    }
+    .smores {
+      border-radius: 4px;
+      opacity: 0.75;
+      vertical-align: middle;
+      border-style: none;
+    }
+    .how {
+      padding-top: 64px !important;
+      padding-bottom: 64px !important;
+    }
+    .textBlue {
+      color: #607d8b !important;
+      font-weight: bold;
+    }
+    b {
+      font-weight: bolder;
+      color: #607d8b;
+    }
+    button {
+      color: black;
+      background-color: #f1f1f1 !important;
+      margin: 0;
+      border: none;
+      display: inline-block;
+      padding: 8px 16px;
+      vertical-align: middle;
+      overflow: hidden;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    button:hover {
+      color: #607d8b;
+      background-color: black;
+    }
+    .forms {
+      padding: 8px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      width: 100%;
+      padding-top: 16px !important;
+      padding-bottom: 16px !important;
+    }
+    footer {
+      color: #000 !important;
+      background-color: #f1f1f1 !important;
+      padding-top: 32px !important;
+      padding-bottom: 32px !important;
+      text-align: center !important;
+    }
+  </style>
+  <body>
+    <div class="navigation">
+      <div class="welcome" style="letter-spacing: 4px">
+        <a href="home.asp" class="itemButton">Decadent Catering</a>
+      </div>
+      <div class="welcomeSmall">
+        <a href="about.asp" class="itemButton">About</a>
+        <a href="menu.asp" class="itemButton">Menu</a>
+        <a href="contact.asp" class="itemButton">Contact</a>
+      </div>
+    </div>
+    <div class="container">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/958/original/bad090b9-64cb-4a83-8d6d-adda27acbee1.jpg?1726577398"
+        alt="food"
+        width="1600"
+        height="900"
+      />
+    </div>
+    <div class="pageContent" style="max-width: 1100px">
+      <div class="who" id="about">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/004/original/top-banner-gfs-v1.jpg?1726592125"
+          alt="tablesetting"
+          width="400"
+          height="300"
+        />
+        <div class="whoInfo">
+          <h1 class="middle">About Catering</h1>
+          <br />
+          <h5 class="middle">Tradition since 1800s</h5>
+          <p class="info">
+            The history of catering involves the development and evolution of
+            the service industry that provides food, beverage, and other event
+            services. The word catering comes from the Latin word cater, which
+            means to provide. The business of providing food for parties,
+            meetings, and other gatherings has been around for millennia, with
+            traces back to ancient civilizations. Over time, this profession has
+            grown and evolved into the diverse industry it is today.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="what" id="menu">
+        <h1 class="middle">Our Menu</h1>
+        <br />
+        <h4>Bruschetta flatbread</h4>
+        <p class="textGrey">
+          Oven baked bruschetta with tomatoes and oregano R56.99
+        </p>
+        <br />
+        <h4>Cheese soup</h4>
+        <p class="textGrey">
+          A smooth blend of cheddar, gouda, onions and butter. Served with
+          ciabatta R65.00
+        </p>
+        <br />
+        <h4>Chicken Caesar salad</h4>
+        <p class="textGrey">
+          A classic Caesar salad with a grilled chicken fillet R110.00
+        </p>
+        <br />
+        <h4>Meat platter</h4>
+        <p class="textGrey">
+          An assortment of pork chops, chicken thighs and drums, wors, brisket.
+          Served with your choice of sides R320.00
+        </p>
+      </div>
+      <div class="lastPic">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/018/original/S27mores-18.jpg?1726595137"
+          class="smores"
+          alt="menu"
+          height="400"
+          width="400"
+        />
+      </div>
+      <hr />
+      <div class="how" id="contact">
+        <h1>Contact</h1>
+        <br />
+        <p>
+          We offer full-service catering for any event, large or small. We
+          understand your needs and we will cater the food to satisfy the
+          biggerst criteria of them all, both look and taste. Do not hesitate to
+          contact us.
+        </p>
+        <p class="textBlue">
+          <b>Decadent Catering, 16 Smit Street, Johannesburg, 2001</b>
+        </p>
+        <p>
+          You can also contact us by phone 011 123 4567 or email
+          decadent@catering.com, or you can send us a message here:
+        </p>
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input
+              class="forms"
+              type="text"
+              placeholder="Name and Surname"
+              required
+              name="Name and Surname"
+            />
+          </p>
+          <p>
+            <input
+              class="forms"
+              type="number"
+              placeholder="How many people?"
+              required
+              name="People"
+            />
+          </p>
+          <p>
+            <input
+              class="forms"
+              type="datetime-local"
+              placeholder="Date and Time"
+              required
+              name="date"
+              value="2024-09-18T10:00"
+            />
+          </p>
+          <p>
+            <button type="submit">Send Info</button>
+          </p>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Developed by
+        <a href="https://github.com/ntiise99" target="_blank">Leseli Ntiise</a>
+      </p>
+    </footer>
+  </body>
+</html>
